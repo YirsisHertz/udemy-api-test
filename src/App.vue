@@ -44,7 +44,7 @@ export default {
       const myHeaders = new Headers();
 
       myHeaders.append('Content-Type', 'application/json');
-      myHeaders.append('Authorization', 'bearer jQVFmRcH7kNn6cBn4qPMQELhfMBY40cv');
+      myHeaders.append('Authorization', 'bearer {secret_key}';
 
       try{
 	const fetchData = await fetch(url, {
